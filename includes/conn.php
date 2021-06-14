@@ -2,8 +2,8 @@
 
 Class Database{
  
-	private $server = "mysql:host=localhost;dbname=ecomm";// instead to localhost
-	private $username = "azure";//change according to azure username and password
+	private $server = "mysql:host=localhost;dbname=ecomm1";// instead to localhost
+	private $username = "root";//change according to azure username and password
 	private $password = "";
 	private $options  = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,);
 	protected $conn;
